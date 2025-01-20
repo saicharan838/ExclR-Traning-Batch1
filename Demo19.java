@@ -1,14 +1,12 @@
-package PS001;
-
 import java.util.Scanner;
 
 public class Demo19 {
-    
-
+   
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter a number: ");
+            System.err.println("Enter a number: ");
             int n = sc.nextInt();
+             
             int first = 0, second = 1;
     
             System.out.println("Fibonacci Series up to " + n + " terms:");
@@ -24,6 +22,3 @@ public class Demo19 {
             }
         }
     }
-    
-    
-
